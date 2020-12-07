@@ -1,0 +1,36 @@
+.main {
+  padding: 50px;
+  background-color: rgba(118, 120, 237, 0.2);
+}
+.main__about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.main__photo {
+  width: 30%;
+  padding-right: 30px;
+  filter: saturate(0.1);
+  transition: 0.3s ease-out;
+}
+.main__photo:hover {
+  filter: saturate(1);
+  transition: 0.3s ease-in;
+}
+.main__about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .main__photo {
+    width: 20%;
+  }
+  .main__about {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
