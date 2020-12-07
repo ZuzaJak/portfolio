@@ -4,7 +4,7 @@
 .projects__heading {
   color: rgb(61, 52, 139);
 }
-.projects__about-text {
+.projects__about {
   display: flex;
   color: white;
   flex-direction: column;
@@ -16,8 +16,11 @@
 .projects__item {
   color: white;
 }
+.projects-img {
+  width: 200px;
+}
 @media only screen and (min-width: 992px) {
-  .projects__about-text {
+  .projects__about {
     width: 90%;
     margin: auto;
     line-height: 30px;
@@ -27,5 +30,14 @@
   }
   .projects {
     padding: 0 100px;
+  }
+  .projects__about-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projects-img {
+    width: 400px;
+    border-radius: 10px;
   }
 }
