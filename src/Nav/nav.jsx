@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="nav">
       <div className="nav__logo">
         <a href="#">
-          <i class="fab fa-pagelines"></i>
+          <i class="logo fas fa-dragon"></i>
         </a>
       </div>
       <div className="nav__links">

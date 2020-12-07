@@ -3,13 +3,8 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  transition: 0.3s ease-out;
 }
-.nav:hover {
-  background-color: rgb(247, 144, 18);
-  transition: 0.3s ease-in;
-}
-.fab {
+.logo {
   color: #3d348bff;
   font-size: 20px;
 }
@@ -39,6 +34,7 @@
     flex: 1 1 60%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
   .nav__links-item {
     padding-left: 40px;
@@ -46,8 +42,9 @@
   .nav__logo {
     width: 20%;
   }
-  .fab {
+  .logo {
     color: #3d348bff;
     font-size: 40px;
+    padding: 10px;
   }
 }

@@ -7,3 +7,7 @@
   color: #3d348bff;
   font-weight: 700;
 }
+.contact__links {
+  display: flex;
+  align-items: center;
+}
