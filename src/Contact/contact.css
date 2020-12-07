@@ -1,0 +1,9 @@
+.contact {
+  margin-top: 100px;
+  background-color: rgba(247, 144, 18, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: #3d348bff;
+  font-weight: 700;
+}

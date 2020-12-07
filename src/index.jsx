@@ -5,6 +5,7 @@ import './style.css';
 import Nav from './Nav/nav.jsx';
 import About from './About/about.jsx';
 import Projects from './Projects/projects.jsx';
+import Contact from './Contact/contact.jsx';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Nav />
       <About />
       <Projects />
+      <Contact />
     </>
   );
 };

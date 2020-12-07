@@ -7,7 +7,12 @@ import nike from '../img/nike.jpg';
 const Projects = () => {
   return (
     <div id="projects" className="projects">
-      <h1 className="projects__heading">Projects</h1>
+      <div className="projects__heading">
+        <h1> Projects</h1>
+        <a href="https://github.com/ZuzaJak" target="_blank">
+          <i class="github fab fa-github"></i>
+        </a>
+      </div>
       <div className="projects__about">
         <div className="projects__about-item">
           <div className="projects__about-text">
@@ -19,8 +24,17 @@ const Projects = () => {
             >
               kodovaniprodeti.cz
             </a>
-            <p>- final project for Digital Academy Web, Czechitas.</p>
-            <p>- in collaboration with Lena Bačíková.</p>
+            <p>
+              - final project for{' '}
+              <a
+                className="projects__item"
+                href="https://www.czechitas.cz/en/portfolio/digital-academy"
+                target="_blank"
+              >
+                Digital Academy Web, Czechitas
+              </a>
+            </p>
+            <p>- in collaboration with Lena Bačíková</p>
           </div>
           <div className="projects__about-img">
             <a href="https://www.kodovaniprodeti.cz/" target="_blank">

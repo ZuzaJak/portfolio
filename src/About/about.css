@@ -36,7 +36,8 @@
     padding: 0 100px;
   }
   .about__photo {
-    width: 30%;
+    width: 20%;
+    margin-left: 50%;
   }
   .about__heading {
     flex-direction: row;
