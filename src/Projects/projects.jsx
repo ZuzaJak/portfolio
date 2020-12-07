@@ -3,7 +3,7 @@ import './projects.css';
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <h1 className="projects__heading">Projects</h1>
       <div className="projects__about-text">
         <h2>Kódování pro děti</h2>

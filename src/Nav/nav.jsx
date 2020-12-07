@@ -10,10 +10,10 @@ const Nav = () => {
         </a>
       </div>
       <div className="nav__links">
-        <a className="nav__links-item" href="#main">
+        <a className="nav__links-item" href="#about">
           about
         </a>
-        <a className="nav__links-item" href="#">
+        <a className="nav__links-item" href="#projects">
           projects
         </a>
         <a className="nav__links-item" href="#">
