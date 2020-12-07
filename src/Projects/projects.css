@@ -1,0 +1,31 @@
+.projects {
+  margin-top: 100px;
+}
+.projects__heading {
+  color: rgb(61, 52, 139);
+}
+.projects__about-text {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 20px;
+  padding: 20px;
+  background-color: rgba(61, 52, 139, 0.7);
+}
+.projects__item {
+  color: white;
+}
+@media only screen and (min-width: 992px) {
+  .projects__about-text {
+    width: 90%;
+    margin: auto;
+    line-height: 30px;
+    padding: 30px;
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    border-radius: 20px;
+  }
+  .projects {
+    padding: 0 100px;
+  }
+}

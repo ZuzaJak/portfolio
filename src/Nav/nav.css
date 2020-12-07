@@ -1,12 +1,12 @@
 .nav {
-  background-color: rgba(247, 186, 1, 0.7);
+  background-color: rgba(247, 144, 18, 0.8);
   display: flex;
   justify-content: space-between;
   padding: 20px;
   transition: 0.3s ease-out;
 }
 .nav:hover {
-  background-color: rgb(247, 186, 1);
+  background-color: rgb(247, 144, 18);
   transition: 0.3s ease-in;
 }
 .fab {

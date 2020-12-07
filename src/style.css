@@ -6,7 +6,11 @@
 body {
   margin: 0;
   font-family: 'Comfortaa', cursive;
-  background-color: white;
+  padding: 5px;
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*  CSS HEX 
