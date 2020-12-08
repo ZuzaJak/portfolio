@@ -3,6 +3,7 @@ import './projects.css';
 import kodovani from '../img/kodovani.jpg';
 import piskvorky from '../img/piskvorky.jpg';
 import nike from '../img/nike.jpg';
+import island from '../img/island.jpg';
 
 const Projects = () => {
   return (
@@ -66,6 +67,24 @@ const Projects = () => {
                 src={piskvorky}
                 alt="náhled stránky"
               />
+            </a>
+          </div>
+        </div>
+
+        <div className="projects__about-item">
+          <div className="projects__about-text">
+            <h2>Travel blog - Island</h2>
+            <a
+              className="projects__item"
+              href="https://zuzajak.github.io/Island/"
+              target="_blank"
+            >
+              zuzajak.github.io/Island
+            </a>
+          </div>
+          <div className="projects__about-img">
+            <a href="https://zuzajak.github.io/Island/" target="_blank">
+              <img className="projects-img" src={island} alt="náhled stránky" />
             </a>
           </div>
         </div>
