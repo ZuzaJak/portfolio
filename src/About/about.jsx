@@ -39,7 +39,7 @@ const About = () => {
         <p>
           HTML5, CSS3, JS, React (basics), Webpack, Google Workspace, GitHub,
           Visual Studio Code, Bootstrap, OS (MS Windows, Linux - user level),
-          LibreOffice, Wordpress.
+          LibreOffice, Wordpress, GIMP (basics).
         </p>
         <h2>languages</h2>
         <p>
