@@ -85,7 +85,11 @@ const Projects = () => {
           </div>
           <div className="projects__about-img">
             <a href="https://zuzajak.github.io/shoes" target="_blank">
-              <img className="projects-img" src={nike} alt="náhled stránky" />
+              <img
+                className=" projects-img projects-img-nike"
+                src={nike}
+                alt="náhled stránky"
+              />
             </a>
           </div>
         </div>

@@ -17,22 +17,27 @@
   background-color: rgba(61, 52, 139, 0.7);
   margin: auto;
   line-height: 30px;
-  box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
-  border-radius: 20px;
 }
 .projects__item {
   color: white;
 }
 .projects-img {
-  width: 200px;
+  width: 250px;
+  border-radius: 10px;
+}
+.projects-img-nike {
+  margin-top: 16px;
 }
 @media only screen and (min-width: 576px) {
   .projects {
     padding: 30px;
   }
+  .projects__about {
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    border-radius: 20px;
+  }
   .projects-img {
     width: 400px;
-    border-radius: 10px;
   }
   .projects__about-img {
     display: flex;
