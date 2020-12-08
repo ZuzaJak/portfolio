@@ -34,7 +34,6 @@ const Projects = () => {
                 Digital Academy Web, Czechitas
               </a>
             </p>
-            <p>- in collaboration with Lena Bačíková</p>
           </div>
           <div className="projects__about-img">
             <a href="https://www.kodovaniprodeti.cz/" target="_blank">
