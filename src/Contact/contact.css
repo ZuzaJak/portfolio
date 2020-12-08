@@ -11,10 +11,19 @@
 .contact__links {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+.github-contact {
+  color: #3d348bff;
+  font-size: 40px;
+}
+.github_link {
+  width: min-content;
 }
 .contact-icons {
   color: #3d348bff;
+  font-size: 12px;
 }
 @media only screen and (min-width: 576px) {
   .contact {
