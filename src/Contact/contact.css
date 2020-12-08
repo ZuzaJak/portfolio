@@ -25,15 +25,20 @@
   color: #3d348bff;
   font-size: 12px;
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 768px) {
   .contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+  .github-contact {
+    color: #3d348bff;
+    font-size: 40px;
+    margin-left: 20px;
+  }
   .contact__links {
-    display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
 }
