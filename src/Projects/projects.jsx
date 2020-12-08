@@ -4,6 +4,7 @@ import kodovani from '../img/kodovani.jpg';
 import piskvorky from '../img/piskvorky.jpg';
 import nike from '../img/nike.jpg';
 import island from '../img/island.jpg';
+import czechitaslogo from '../img/czechitas_logo_bez_pozadi.png';
 
 const Projects = () => {
   return (
@@ -34,6 +35,8 @@ const Projects = () => {
               >
                 Digital Academy Web, Czechitas
               </a>
+              , this project won in the category "Star Project", awarded by
+              Czechitas comittee
             </p>
           </div>
           <div className="projects__about-img">
