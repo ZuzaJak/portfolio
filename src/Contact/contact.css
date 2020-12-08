@@ -13,6 +13,9 @@
   flex-direction: column;
   align-items: center;
 }
+.contact-icons {
+  color: #3d348bff;
+}
 @media only screen and (min-width: 576px) {
   .contact {
     display: flex;

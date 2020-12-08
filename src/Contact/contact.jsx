@@ -4,7 +4,13 @@ import './contact.css';
 const Contact = () => {
   return (
     <div id="contact" className="contact">
-      <p>©2020, Zuzka Jakubčak</p>
+      <p>
+        ©2020, Zuzka Jakubčak, icons by{' '}
+        <a className="contact-icons" href="https://fontawesome.com/">
+          {' '}
+          Font Awesome
+        </a>
+      </p>
 
       <div className="contact__links">
         <p>zuzkajakubcak@gmail.com</p>
