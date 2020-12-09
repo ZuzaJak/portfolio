@@ -21,14 +21,15 @@
 .projects__item {
   color: white;
 }
+.award {
+  margin-left: 10px;
+  color: #fdff00;
+  font-size: 30px;
+  text-align: center;
+}
 .projects-img {
   width: 250px;
   border-radius: 10px;
-}
-.czechitaslogo {
-  width: 100px;
-  display: flex;
-  align-items: center;
 }
 .projects-img-nike {
   margin-top: 16px;

@@ -18,7 +18,9 @@ const Projects = () => {
       <div className="projects__about">
         <div className="projects__about-item">
           <div className="projects__about-text">
-            <h2>Kódování pro děti</h2>
+            <h2>
+              Kódování pro děti<i class="award fas fa-award"></i>
+            </h2>
             <a
               className="projects__item"
               href="https://www.kodovaniprodeti.cz/"
@@ -26,6 +28,7 @@ const Projects = () => {
             >
               kodovaniprodeti.cz
             </a>
+            <p> - in collaboration with Lena Bačíková</p>
             <p>
               - final project for{' '}
               <a
@@ -35,8 +38,7 @@ const Projects = () => {
               >
                 Digital Academy Web, Czechitas
               </a>
-              , this project won in the category "Star Project", awarded by
-              Czechitas comittee
+              , this project won in the category "Star Project"
             </p>
           </div>
           <div className="projects__about-img">
@@ -53,7 +55,7 @@ const Projects = () => {
 
         <div className="projects__about-item">
           <div className="projects__about-text">
-            <h2>Piškvorky</h2>
+            <h2>Piškvorky (game five-in-a-row)</h2>
             <a
               className="projects__item"
               href="https://zuzajak.github.io/piskvorky/"
@@ -61,7 +63,6 @@ const Projects = () => {
             >
               zuzajak.github.io/piskvorky
             </a>
-            <p>- game five-in-a-row</p>
           </div>
           <div className="projects__about-img">
             <a href="https://zuzajak.github.io/piskvorky/" target="_blank">
