@@ -4,7 +4,6 @@ import kodovani from '../img/kodovani.jpg';
 import piskvorky from '../img/piskvorky.jpg';
 import nike from '../img/nike.jpg';
 import island from '../img/island.jpg';
-import czechitaslogo from '../img/czechitas_logo_bez_pozadi.png';
 
 const Projects = () => {
   return (
@@ -51,6 +50,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
+
         <br />
 
         <div className="projects__about-item">
