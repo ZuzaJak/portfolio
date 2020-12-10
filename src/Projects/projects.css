@@ -56,14 +56,21 @@
     padding: 100px;
   }
   .projects__about {
-    padding: 30px;
+    padding: 40px;
   }
 }
-
 @media only screen and (min-width: 992px) {
   .projects__about-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .projects__about-text {
+    padding-right: 30px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .projects-img {
+    width: 450px;
   }
 }
