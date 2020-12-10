@@ -18,8 +18,8 @@ const About = () => {
         <p>
           I am a passionate junior web developer, mainly self-taught. I am
           interested especially in CSS, Javascript, React. I am highly motivated
-          and keen to learn more about web development. Currently I am completed
-          a 3 month web dev course -{' '}
+          and keen to learn more about web development. Currently I completed a
+          3 month web dev course -{' '}
           <a
             className="projects__item"
             href="https://www.czechitas.cz/en/portfolio/digital-academy"
