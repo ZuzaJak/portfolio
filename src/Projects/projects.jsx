@@ -17,9 +17,7 @@ const Projects = () => {
       <div className="projects__about">
         <div className="projects__about-item">
           <div className="projects__about-text">
-            <h2>
-              Kódování pro děti<i class="award fas fa-award"></i>
-            </h2>
+            <h2>Kódování pro děti</h2>
             <a
               className="projects__item"
               href="https://www.kodovaniprodeti.cz/"
