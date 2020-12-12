@@ -16,10 +16,14 @@ const About = () => {
       <div className="main__about-text">
         <h2>about</h2>
         <p>
-          I am a passionate junior web developer, mainly self-taught. I am
-          interested especially in CSS, Javascript, React. I am highly motivated
-          and keen to learn more about web development. Currently I completed a
-          3 month web dev course -{' '}
+          Passionate junior web developer, mainly self-taught (Udemy courses,
+          youtube tutorials etc.). I am interested especially in CSS,
+          Javascript, React, and generally about the whole process of creating a
+          nice, fully functional and user friendly website. I am highly
+          motivated and keen to learn more about web development, able to spend
+          endless hours learning new things and finding solutions to problems I
+          encounter during work on my projects. Currently I completed a 3 month
+          web dev course -{' '}
           <a
             className="projects__item"
             href="https://www.czechitas.cz/en/portfolio/digital-academy"
@@ -27,9 +31,10 @@ const About = () => {
           >
             Digital Academy Web, Czechitas
           </a>
-          , and I am open to new job opportunities. Until now, I have been
-          working as a Teacher and a Teaching assistant. For more information
-          about my previous career path and CV, please{' '}
+          , and I would like to get an opportunity to find my entry job as a
+          frontend developer. Until now, I have been working as a biology
+          teacher and a teaching assistant. For more information about my
+          previous career path and CV, please{' '}
           <a className="projects__item" href="#contact">
             {' '}
             contact me.
