@@ -18,7 +18,7 @@ const About = () => {
         <p>
           Passionate junior web developer, mainly self-taught (Udemy courses,
           youtube tutorials etc.). I am interested especially in CSS,
-          Javascript, React, and generally about the whole process of creating a
+          Javascript, React, and generally in the whole process of creating a
           nice, fully functional and user friendly website. I am highly
           motivated and keen to learn more about web development, able to spend
           endless hours learning new things and finding solutions to problems I
