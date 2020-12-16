@@ -11,6 +11,9 @@
   flex-direction: column;
   text-align: center;
 }
+.about__name h1 {
+  font-size: 40px;
+}
 .about__photo {
   width: 50%;
   filter: saturate(0.1);
