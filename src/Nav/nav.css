@@ -24,41 +24,25 @@
   text-decoration: none;
   color: #3d348bff;
 }
-.nav__links-item:hover {
-  text-decoration: underline;
-  text-decoration-color: #3d348bff;
-  transition: 0.3s;
-}
 .nav-contact {
   color: #3d348bff;
+  padding: 0 10px;
   font-size: 40px;
-  margin-left: 20px;
 }
 @media only screen and (min-width: 450px) {
   .nav {
     flex-direction: row;
     justify-content: space-between;
   }
-}
-@media only screen and (min-width: 576px) {
-  .nav__links {
-    font-weight: 700;
-    font-size: 20px;
-    flex: 1 1 60%;
-  }
-  .nav__links-item {
-    padding-left: 40px;
+  .nav-contact {
+    margin-left: 20px;
   }
 }
 @media only screen and (min-width: 768px) {
   .nav__links {
     font-size: 30px;
   }
-  .nav__logo {
-    width: 20%;
-  }
   .logo {
-    color: #3d348bff;
     font-size: 35px;
   }
 }
