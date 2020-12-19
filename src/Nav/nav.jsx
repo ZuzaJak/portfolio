@@ -5,19 +5,24 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="nav__logo">
-        <a href="#">
-          <i class="logo fab fa-pagelines"></i>
+        <a className="logo" href="#">
+          Portfolio
         </a>
       </div>
       <div className="nav__links">
-        <a className="nav__links-item" href="#about">
-          about
+        <a
+          className="nav_link"
+          href="https://github.com/ZuzaJak"
+          target="_blank"
+        >
+          <i class="nav-contact fab fa-github"></i>
         </a>
-        <a className="nav__links-item" href="#projects">
-          projects
-        </a>
-        <a className="nav__links-item" href="#contact">
-          contact
+        <a
+          className="nav_link"
+          href="https://www.linkedin.com/in/zuzana-jakubcakova/"
+          target="_blank"
+        >
+          <i class="nav-contact fab fa-linkedin"></i>
         </a>
       </div>
     </div>
