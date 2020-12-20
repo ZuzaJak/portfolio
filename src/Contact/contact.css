@@ -1,11 +1,10 @@
 .contact {
-  margin-top: 100px;
-  background-color: rgba(247, 144, 18, 0.8);
+  background-color: rgba(58, 171, 228, 0.6);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  color: #3d348bff;
+  color: #291f1e;
   font-weight: 700;
 }
 .contact__links {
@@ -15,14 +14,14 @@
   align-items: center;
 }
 .github-contact {
-  color: #3d348bff;
+  color: #291f1e;
   font-size: 40px;
 }
 .github_link {
   width: min-content;
 }
 .contact-icons {
-  color: #3d348bff;
+  color: #291f1e;
   font-size: 12px;
 }
 @media only screen and (min-width: 768px) {
@@ -30,11 +29,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  .github-contact {
-    color: #3d348bff;
-    font-size: 40px;
-    margin-left: 20px;
   }
   .contact__links {
     flex-direction: row;

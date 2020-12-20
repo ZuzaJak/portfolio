@@ -1,14 +1,43 @@
+.about {
+  color: #463239;
+  line-height: 30px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+.flex-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-right {
+  background-color: rgba(248, 223, 196, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.flex-right > h4,
+.flex-right > p {
+  margin: 0;
+}
 .about__heading {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  color: #3d348bff;
-  padding: 50px;
+  color: rgb(58, 171, 228);
+  padding: 30px;
   width: 100%;
+}
+h1 {
+  line-height: 50px;
+}
+.about__item {
+  color: rgb(58, 171, 228);
 }
 .about__name {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 .about__name h1 {
@@ -20,41 +49,24 @@
   transition: 0.3s ease-out;
 }
 .about__photo:hover {
-  filter: saturate(1);
+  filter: saturate(0.6);
   transition: 0.3s ease-in;
 }
 .main__about-text {
   display: flex;
-  color: #3d348bff;
   flex-direction: column;
   justify-content: center;
   padding: 0 20px;
   margin: auto;
-  line-height: 30px;
   text-align: justify;
 }
+.main-h2-left {
+  color: rgb(58, 171, 228);
+}
 .main-h2 {
-  margin-right: 10px;
-  cursor: pointer;
-}
-.main__collapsible {
-  color: #3d348bff;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.main__about-text > h3 {
-  margin: 0;
+  color: rgb(58, 171, 228);
 }
 @media only screen and (min-width: 576px) {
-  .about__heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .about {
-    padding: 0 30px;
-  }
   .about__photo {
     width: 20%;
   }
@@ -63,18 +75,29 @@
     text-align: left;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   .about {
-    padding: 0 100px;
-  }
-  .about__heading {
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
-  .main__about {
+  .flex-left {
+    flex: 1 1 50%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  .flex-right {
+    flex: 1 1 50%;
+    background-color: rgba(248, 223, 196, 0.6);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .main__about-text {
     padding: 0 40px;

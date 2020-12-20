@@ -1,14 +1,19 @@
+.projects {
+  background-color: rgba(248, 223, 196, 0.6);
+}
 .github-projects {
   margin-left: 20px;
-  color: #3d348bff;
+  color: #291f1e;
   font-size: 40px;
+}
+.projects {
+  padding: 0 30px;
 }
 .projects__about {
   display: flex;
-  color: #3d348bff;
+  color: #291f1e;
   flex-direction: column;
   justify-content: center;
-  padding: 0 20px;
   margin: auto;
   line-height: 30px;
 }
@@ -19,13 +24,24 @@
 .projects-img-nike {
   margin-top: 16px;
 }
+.main__collapsible {
+  text-align: center;
+  padding: 30px;
+  transition: 0.4s ease-in-out;
+}
+.main__collapsible:hover {
+  color: rgb(58, 171, 228);
+}
+.projects__item {
+  color: rgb(58, 171, 228);
+}
+.Collapsible {
+  cursor: pointer;
+}
 @media only screen and (min-width: 576px) {
-  .projects {
-    padding: 0 30px;
-  }
   .projects-img {
     width: 400px;
-    border: 1px solid rgba(61, 52, 139, 0.4);
+    border: 1px solid rgba(41, 31, 30, 0.5);
   }
   .projects__about-img {
     display: flex;
@@ -33,22 +49,11 @@
     margin-top: 30px;
   }
 }
-@media only screen and (min-width: 768px) {
-  .projects {
-    padding: 0 100px;
-  }
-  .projects__about {
-    padding: 0 40px;
-  }
-}
 @media only screen and (min-width: 992px) {
   .projects__about-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .projects__about-text {
-    padding-right: 30px;
   }
 }
 @media only screen and (min-width: 1200px) {

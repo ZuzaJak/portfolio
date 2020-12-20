@@ -14,7 +14,7 @@ const Projects = () => {
           trigger={
             <div className="main__collapsible">
               <h2 className="main-h2">projects</h2>
-              <i class="fas fa-caret-down"></i>
+              <i class="fas fa-angle-double-down"></i>
             </div>
           }
         >
