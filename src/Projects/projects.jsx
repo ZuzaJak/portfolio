@@ -5,6 +5,7 @@ import kodovani from '../img/kodovani.jpg';
 import piskvorky from '../img/piskvorky.jpg';
 import nike from '../img/nike.jpg';
 import island from '../img/island.jpg';
+import ph from '../img/ph.jpg';
 
 const Projects = () => {
   return (
@@ -18,6 +19,27 @@ const Projects = () => {
             </div>
           }
         >
+          <div className="projects__about-item">
+            <div className="projects__about-text">
+              <h2>
+                <i class="fas fa-angle-right"></i> Band webpage
+              </h2>
+              <a
+                className="projects__item"
+                href="https://prvnihore.netlify.app/"
+                target="_blank"
+              >
+                prvnihore.netlify.app
+              </a>
+            </div>
+            <div className="projects__about-img">
+              <a href="https://prvnihore.netlify.app/" target="_blank">
+                <img className="projects-img" src={ph} alt="náhled stránky" />
+              </a>
+            </div>
+          </div>
+          <br />
+
           <div className="projects__about-item">
             <div className="projects__about-text">
               <h2>
@@ -105,7 +127,7 @@ const Projects = () => {
           <div className="projects__about-item">
             <div className="projects__about-text">
               <h2>
-                <i class="fas fa-angle-right"></i> Nike shoes advertisement
+                <i class="fas fa-angle-right"></i> Advertisement
               </h2>
               <a
                 className="projects__item"
