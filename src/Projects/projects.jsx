@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Collapsible from 'react-collapsible';
 import './projects.css';
 import kodovani from '../img/kodovani.jpg';
@@ -8,16 +8,19 @@ import island from '../img/island.jpg';
 import ph from '../img/ph.jpg';
 
 const Projects = () => {
+  const [arrow, setArrow] = useState('fas fa-chevron-down');
   return (
     <div id="projects" className="projects">
       <div className="projects__about">
         <Collapsible
           trigger={
             <div className="main__collapsible">
-              <h2 className="main-h2">projects</h2>
-              <i class="fas fa-angle-double-down"></i>
+              <h2>projects</h2>
+              <i className={arrow}></i>
             </div>
           }
+          onOpening={() => setArrow('fas fa-chevron-up')}
+          onClosing={() => setArrow('fas fa-chevron-down')}
         >
           <div className="projects__about-item">
             <div className="projects__about-text">

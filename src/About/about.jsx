@@ -74,10 +74,6 @@ const About = () => {
         </h4>
         <p> Praha, 2008 - 2011, Ecological and evolutionary biology.</p>
         <br />
-        <h4>
-          <i class="fas fa-angle-right"></i> High School - Gymnázium Turnov
-        </h4>
-        <p>2003-2007</p>
       </div>
     </div>
   );
