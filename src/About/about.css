@@ -70,4 +70,7 @@ h1 {
   .about__column {
     width: 45%;
   }
+  .main__about-text {
+    text-align: justify;
+  }
 }
