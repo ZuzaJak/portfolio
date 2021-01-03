@@ -20,10 +20,10 @@
   justify-content: flex-end;
   align-items: center;
 }
-.nav-contact {
+.nav-item {
   color: #291f1e;
   padding: 0 10px;
-  font-size: 40px;
+  font-size: 20px;
 }
 @media only screen and (min-width: 450px) {
   .nav {

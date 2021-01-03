@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './nav.css';
 
 const Nav = () => {
@@ -10,20 +11,15 @@ const Nav = () => {
         </a>
       </div>
       <div className="nav__links">
-        <a
-          className="nav_link"
-          href="https://github.com/ZuzaJak"
-          target="_blank"
-        >
-          <i class="nav-contact fab fa-github"></i>
-        </a>
-        <a
-          className="nav_link"
-          href="https://www.linkedin.com/in/zuzana-jakubcakova/"
-          target="_blank"
-        >
-          <i class="nav-contact fab fa-linkedin"></i>
-        </a>
+        <Link className="nav-item" to="/index">
+          about
+        </Link>
+        <Link className="nav-item" to="/projects">
+          work
+        </Link>
+        {/*  <Link className="nav-item" to="/vyzkousej-to/1">
+          pojď si zahrát
+        </Link> */}
       </div>
     </div>
   );

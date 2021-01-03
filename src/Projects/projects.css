@@ -21,21 +21,6 @@
   width: 250px;
   border-radius: 10px;
 }
-.projects-img-nike {
-  margin-top: 16px;
-}
-.main__collapsible {
-  text-align: center;
-  transition: 0.4s ease-in-out;
-  cursor: pointer;
-  margin: 30px auto;
-  border: 1px solid rgb(58, 171, 228);
-  background-color: rgba(58, 171, 228, 0.2);
-  color: rgb(58, 171, 228);
-}
-.main__collapsible:hover {
-  color: rgb(247, 134, 12);
-}
 .projects__item {
   color: rgb(58, 171, 228);
 }
