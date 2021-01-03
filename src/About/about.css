@@ -1,7 +1,7 @@
 .about {
   color: #463239;
   line-height: 30px;
-  text-align: justify;
+
   display: flex;
   flex-direction: column;
 }
@@ -47,6 +47,7 @@ h1 {
 }
 .main-h2 {
   color: rgb(58, 171, 228);
+  text-align: center;
 }
 .about__columns {
   display: flex;

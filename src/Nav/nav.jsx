@@ -17,9 +17,6 @@ const Nav = () => {
         <Link className="nav-item" to="/projects">
           work
         </Link>
-        {/*  <Link className="nav-item" to="/vyzkousej-to/1">
-          pojď si zahrát
-        </Link> */}
       </div>
     </div>
   );

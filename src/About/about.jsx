@@ -51,8 +51,6 @@ const About = () => {
           <p>LibreOffice</p>
           <p>Wordpress</p>
           <p>GIMP (basics)</p>
-          <h2 className="main-h2">languages</h2>
-          <p>Czech (native), English (C1), German (A2)</p>
         </div>
         <div className="about__column">
           <h2 className="main-h2">education</h2>
@@ -70,6 +68,8 @@ const About = () => {
           <br />
           <h4>Charles University Prague, Faculty of Science</h4>
           <p> Praha, 2008 - 2011, Ecological and evolutionary biology.</p>
+          <h2 className="main-h2">languages</h2>
+          <p>Czech (native), English (C1), German (A2)</p>
         </div>
       </div>
       <br />
