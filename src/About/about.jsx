@@ -38,19 +38,53 @@ const About = () => {
       <div className="about__columns">
         <div className="about__column">
           <h2 className="main-h2">skills</h2>
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>JavaScript</p>
-          <p>React</p>
-          <p>Webpack</p>
-          <p>GitHub</p>
-          <p>Google Workspace</p>
-          <p>Visual Studio Code</p>
-          <p>Bootstrap</p>
+          <p>
+            HTML5 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            CSS3 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            JavaScript <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            React <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            Webpack <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            GitHub <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            Google Workspace <i class="fas fa-star"></i>{' '}
+            <i class="fas fa-star"></i> <i class="far fa-star"></i>
+          </p>
+          <p>
+            Visual Studio Code <i class="fas fa-star"></i>{' '}
+            <i class="fas fa-star"></i> <i class="far fa-star"></i>
+          </p>
+          <p>
+            Bootstrap <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            Wordpress <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+            <i class="far fa-star"></i>
+          </p>
+          <p>
+            GIMP <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+            <i class="far fa-star"></i>{' '}
+          </p>
+          <strong>other skills:</strong>
           <p>OS (MS Windows, Linux - user level)</p>
           <p>LibreOffice</p>
-          <p>Wordpress</p>
-          <p>GIMP (basics)</p>
         </div>
         <div className="about__column">
           <h2 className="main-h2">education</h2>
