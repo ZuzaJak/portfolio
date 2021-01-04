@@ -39,7 +39,7 @@ const Projects = () => {
             >
               kodovaniprodeti.cz
             </a>
-            <p> - in collaboration with Lena Bačíková</p>
+
             <p>
               - final project for{' '}
               <a
@@ -49,7 +49,8 @@ const Projects = () => {
               >
                 Digital Academy Web, Czechitas
               </a>
-              , this project won in the category "Star Project"
+              , this project won in the category "Star Project" (in
+              collaboration with Lena Bačíková)
             </p>
           </div>
           <div className="projects__about-img">
@@ -84,6 +85,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
+        <br />
         <div className="projects__about-item">
           <div className="projects__about-text">
             <h2>Travel blog - Island</h2>
