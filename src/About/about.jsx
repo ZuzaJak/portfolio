@@ -38,53 +38,100 @@ const About = () => {
       <div className="about__columns">
         <div className="about__column">
           <h2 className="main-h2">skills</h2>
-          <p>
-            HTML5 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            CSS3 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            JavaScript <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            React <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            Webpack <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            GitHub <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            Google Workspace <i class="fas fa-star"></i>{' '}
-            <i class="fas fa-star"></i> <i class="far fa-star"></i>
-          </p>
-          <p>
-            Visual Studio Code <i class="fas fa-star"></i>{' '}
-            <i class="fas fa-star"></i> <i class="far fa-star"></i>
-          </p>
-          <p>
-            Bootstrap <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            Wordpress <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
-            <i class="far fa-star"></i>
-          </p>
-          <p>
-            GIMP <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
-            <i class="far fa-star"></i>{' '}
-          </p>
+          <table className="skills-table">
+            <tr>
+              HTML5{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              CSS3{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              JavaScript{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              React{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              Webpack{' '}
+              <th>
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              GitHub{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              Google Workspace{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              Visual Studio Code{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              Bootstrap{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              Wordpress{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="far fa-star"></i>
+              </th>
+            </tr>
+            <tr>
+              GIMP{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="far fa-star"></i>{' '}
+              </th>
+            </tr>
+          </table>
           <strong>other skills:</strong>
           <p>OS (MS Windows, Linux - user level)</p>
           <p>LibreOffice</p>
+          <strong>languages:</strong>
+          <p>Czech (native), English (C1), German (A2)</p>
         </div>
         <div className="about__column">
           <h2 className="main-h2">education</h2>
@@ -102,8 +149,6 @@ const About = () => {
           <br />
           <h4>Charles University Prague, Faculty of Science</h4>
           <p> Praha, 2008 - 2011, Ecological and evolutionary biology.</p>
-          <h2 className="main-h2">languages</h2>
-          <p>Czech (native), English (C1), German (A2)</p>
         </div>
       </div>
       <br />
