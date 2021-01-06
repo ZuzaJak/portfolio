@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => {
   return (
     <div id="contact" className="contact">
-      <p>©2020, Zuzana Jakubčak </p>
+      <p>© 2021, Zuzana Jakubčak </p>
       <div className="contact__links">
         <p>zuzkajakubcak@gmail.com</p>
         <div>
@@ -28,6 +28,13 @@ const Contact = () => {
         icons by{' '}
         <a className="contact-icons" href="https://fontawesome.com/">
           Font Awesome
+        </a>
+        , background design by{' '}
+        <a
+          className="contact-icons"
+          href="<a href='https://www.freepik.com/vectors/background'>Background vector created by VecMes - www.freepik.com</a>"
+        >
+          freepik
         </a>
       </p>
     </div>
