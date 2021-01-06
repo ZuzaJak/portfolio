@@ -26,13 +26,18 @@ const Contact = () => {
       </div>
       <p className="contact-icons">
         icons by{' '}
-        <a className="contact-icons" href="https://fontawesome.com/">
+        <a
+          className="contact-icons"
+          href="https://fontawesome.com/"
+          target="_blank"
+        >
           Font Awesome
         </a>
         , background design by{' '}
         <a
           className="contact-icons"
-          href="<a href='https://www.freepik.com/vectors/background'>Background vector created by VecMes - www.freepik.com</a>"
+          href="https://www.freepik.com/vectors/background"
+          target="_blank"
         >
           freepik
         </a>
