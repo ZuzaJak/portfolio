@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './nav.css';
 
 const Nav = () => {
@@ -11,12 +11,16 @@ const Nav = () => {
         </Link>
       </div>
       <div className="nav__links">
-        <Link className="nav-item" to="/index">
+        <NavLink activeClassName="is-active" className="nav-item" to="/index">
           about
-        </Link>
-        <Link className="nav-item" to="/projects">
+        </NavLink>
+        <NavLink
+          className="nav-item"
+          activeClassName="is-active"
+          to="/projects"
+        >
           work
-        </Link>
+        </NavLink>
       </div>
     </div>
   );

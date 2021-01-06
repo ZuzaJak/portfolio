@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 .nav__links {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   display: flex;
   justify-content: flex-end;
@@ -22,6 +22,7 @@
 }
 .nav-item {
   color: #291f1e;
+  text-decoration: none;
   padding: 0 10px;
   font-size: 20px;
   transition: 0.5s ease-in-out;
@@ -29,6 +30,10 @@
 .nav-item:hover {
   color: #f76e48;
   transition: 0.5s ease-in-out;
+}
+.is-active {
+  color: #f76e48;
+  text-decoration: underline;
 }
 @media only screen and (min-width: 450px) {
   .nav {
