@@ -25,22 +25,19 @@ const Contact = () => {
         </div>
       </div>
       <p className="contact-icons">
-        icons by{' '}
-        <a
-          className="contact-icons"
-          href="https://fontawesome.com/"
-          target="_blank"
-        >
-          Font Awesome
-        </a>
-        , background design by{' '}
-        <a
-          className="contact-icons"
-          href="https://www.freepik.com/vectors/background"
-          target="_blank"
-        >
-          freepik
-        </a>
+        <p className="contact-icons-flexitem">
+          {' '}
+          icons by{' '}
+          <a href="https://fontawesome.com/" target="_blank">
+            Font Awesome
+          </a>
+        </p>
+        <p className="contact-icons-flexitem">
+          background design by{' '}
+          <a href="https://www.freepik.com/vectors/background" target="_blank">
+            freepik
+          </a>
+        </p>
       </p>
     </div>
   );
