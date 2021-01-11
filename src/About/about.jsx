@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import photo from '../img/img1.png';
+import photo from '../img/img2.png';
 
 const About = () => {
   return (
@@ -24,9 +24,9 @@ const About = () => {
               target="_blank"
             >
               Digital Academy Web, Czechitas
-            </a>
-            , and I would like to get an opportunity to find my entry job as a
-            frontend developer. Until now, I have been working as a biology
+            </a>{' '}
+            (300h) , and I would like to get an opportunity to find my entry job
+            as a frontend developer. Until now, I have been working as a biology
             teacher and a teaching assistant. For more information about my
             previous career path and CV,{' '}
             <a className="about__item" href="#contact">
