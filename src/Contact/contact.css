@@ -25,6 +25,23 @@
   background-color: rgba(255, 255, 255, 0);
   cursor: copy;
 }
+@keyframes hvr-pulse {
+  25% {
+    transform: scale(1.1);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+}
+.copy-button {
+  transform: perspective(1px) translateZ(0);
+}
+.copy-button:hover {
+  animation-name: hvr-pulse;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
 .copy-button:focus {
   outline: 0;
 }
