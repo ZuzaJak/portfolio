@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './contact.css';
 
 const Contact = () => {
+  const [textValue, setTextValue] = useState('zuzkajakubcak@gmail.com');
   return (
     <div id="contact" className="contact">
       <p>© 2021, Zuzana Jakubčak </p>
       <div className="contact__links">
-        <p>zuzkajakubcak@gmail.com</p>
+        <CopyToClipboard text={textValue}>
+          <button
+            className="copy-button"
+            value="textValue"
+            onClick={(e) => {
+              setTextValue(`zuzkajakubcak@gmail.com ➤ copied!`);
+              e.target.style.color = '#f76e48';
+            }}
+          >
+            {textValue}
+          </button>
+        </CopyToClipboard>
         <div>
           <a
             className="contact_links-icon"

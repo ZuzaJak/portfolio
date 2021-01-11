@@ -17,6 +17,17 @@
   color: #291f1e;
   padding: 0 10px;
 }
+.copy-button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #291f1e;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: copy;
+}
+.copy-button:focus {
+  outline: 0;
+}
 .fab {
   padding: 0 10px;
   font-size: 40px;
