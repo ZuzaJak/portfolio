@@ -39,9 +39,9 @@
 }
 .copy-button:hover {
   animation-name: hvr-pulse;
-  animation-duration: 0.5s;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 0.5;
 }
 .copy-button:focus {
   outline: 0;
