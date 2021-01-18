@@ -3,23 +3,21 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import './contact.css';
 
 const Contact = () => {
-  const [textValue, setTextValue] = useState('zuzkajakubcak@gmail.com');
+  const [copied, setCopied] = useState(false);
+
   return (
     <div id="contact" className="contact">
       <p>© 2021, Zuzana Jakubčak </p>
       <div className="contact__links">
-        <CopyToClipboard text={textValue}>
-          <button
-            className="copy-button"
-            value="textValue"
-            onClick={(e) => {
-              setTextValue(`zuzkajakubcak@gmail.com ➤ copied!`);
-              e.target.style.color = '#f76e48';
-            }}
-          >
-            {textValue}
-          </button>
+        <CopyToClipboard
+          text={'zuzkajakubcak@gmail.com'}
+          onCopy={() => setCopied(true)}
+        >
+          <button className="copy-button">zuzkajakubcak@gmail.com</button>
         </CopyToClipboard>
+        <div className="copied-div">
+          {copied ? <span className="copied">copied</span> : null}
+        </div>
         <div>
           <a
             className="contact_links-icon"

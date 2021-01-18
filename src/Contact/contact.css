@@ -25,6 +25,7 @@
   padding: 20px 10px;
   background-color: rgba(255, 255, 255, 0);
   cursor: copy;
+  font-family: 'Montserrat', sans-serif;
 }
 @keyframes hvr-pulse {
   25% {
@@ -45,6 +46,11 @@
 }
 .copy-button:focus {
   outline: 0;
+}
+.copied-div {
+  padding: 0 0 20px 0;
+  color: #f76e48;
+  font-style: italic;
 }
 .fab {
   padding: 0 10px;
