@@ -7,16 +7,20 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contact">
-      <p>© 2021, Zuzana Jakubčak </p>
+      <p>
+        <i class="far fa-copyright"></i> 2021, Zuzana Jakubčak{' '}
+      </p>
       <div className="contact__links">
         <CopyToClipboard
           text={'zuzkajakubcak@gmail.com'}
           onCopy={() => setCopied(true)}
         >
-          <button className="copy-button">zuzkajakubcak@gmail.com</button>
+          <button className="copy-button">
+            zuzkajakubcak@gmail.com <i class="far fa-copy"></i>
+          </button>
         </CopyToClipboard>
         <div className="copied-div">
-          {copied ? <span className="copied">copied</span> : null}
+          {copied ? <span className="copied">copied!</span> : null}
         </div>
         <div>
           <a
