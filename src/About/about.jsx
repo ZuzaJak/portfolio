@@ -136,19 +136,19 @@ const About = () => {
         <div className="about__column">
           <h2 className="main-h2">education</h2>
           <h4>Digital Academy Web, Czechitas</h4>
-          <p> Praha, 9/2020 - 12/2020</p>
+          <p> Prague, 9/2020 - 12/2020</p>
           <br />
           <h4>IT Academy, Primakurzy.cz</h4>
-          <p>Web development, Praha, 2/2020</p>
+          <p>Web development, Prague, 2/2020</p>
           <br />
           <h4>Charles University Prague, Faculty of Education</h4>
           <p>
-            Praha, 2014 - 2017, Biology, geology and environmental studies,
+            Prague, 2014 - 2017, Biology, geology and environmental studies,
             Health education.
           </p>
           <br />
           <h4>Charles University Prague, Faculty of Science</h4>
-          <p> Praha, 2008 - 2011, Ecological and evolutionary biology.</p>
+          <p> Prague, 2008 - 2011, Ecological and evolutionary biology.</p>
         </div>
       </div>
       <br />
