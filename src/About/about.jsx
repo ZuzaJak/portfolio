@@ -131,7 +131,7 @@ const About = () => {
           <p>OS (MS Windows, Linux - user level)</p>
           <p>LibreOffice</p>
           <strong>languages:</strong>
-          <p>Czech (native), English (C1), German (A2)</p>
+          <p>Czech (native), English (C1), German (A2), Hindi (A1)</p>
         </div>
         <div className="about__column">
           <h2 className="main-h2">education</h2>
