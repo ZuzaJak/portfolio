@@ -25,12 +25,11 @@ const About = () => {
             >
               Digital Academy Web, Czechitas
             </a>{' '}
-            (300h) , and I would like to get an opportunity to find my entry job
-            as a frontend developer. Until now, I have been working as a biology
-            teacher and a teaching assistant. For more information about my
-            previous career path and CV,{' '}
+            (300h) and I'm working as a Web Administrator and Web Development
+            Specialist. For more information about my current and previous
+            career path and CV,{' '}
             <a className="about__item" href="#contact">
-              contact me.
+              contact me via email od LinkedIn.
             </a>
           </p>
         </div>
@@ -44,7 +43,7 @@ const About = () => {
               <th>
                 {' '}
                 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
-                <i class="far fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
               </th>
             </tr>
             <tr>
@@ -52,7 +51,7 @@ const About = () => {
               <th>
                 {' '}
                 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
-                <i class="far fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
               </th>
             </tr>
             <tr>
@@ -67,7 +66,7 @@ const About = () => {
               React{' '}
               <th>
                 {' '}
-                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>{' '}
                 <i class="far fa-star"></i>
               </th>
             </tr>
@@ -82,7 +81,7 @@ const About = () => {
               GitHub{' '}
               <th>
                 {' '}
-                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star-half-alt"></i>{' '}
                 <i class="far fa-star"></i>
               </th>
             </tr>
@@ -91,6 +90,14 @@ const About = () => {
               <th>
                 {' '}
                 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="fas fa-star-half-alt"></i>
+              </th>
+            </tr>
+            <tr>
+              Freelo{' '}
+              <th>
+                {' '}
+                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
                 <i class="far fa-star"></i>
               </th>
             </tr>
@@ -99,7 +106,7 @@ const About = () => {
               <th>
                 {' '}
                 <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
-                <i class="far fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
               </th>
             </tr>
             <tr>
@@ -114,6 +121,14 @@ const About = () => {
               Wordpress{' '}
               <th>
                 {' '}
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i>{' '}
+                <i class="fas fa-star-half-alt"></i>
+              </th>
+            </tr>
+            <tr>
+              Shopio{' '}
+              <th>
+                {' '}
                 <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
                 <i class="far fa-star"></i>
               </th>
@@ -122,7 +137,7 @@ const About = () => {
               GIMP{' '}
               <th>
                 {' '}
-                <i class="fas fa-star"></i> <i class="far fa-star"></i>{' '}
+                <i class="fas fa-star-half-alt"></i> <i class="far fa-star"></i>{' '}
                 <i class="far fa-star"></i>{' '}
               </th>
             </tr>
