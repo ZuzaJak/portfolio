@@ -29,7 +29,7 @@ const About = () => {
             Specialist. For more information about my current and previous
             career path and CV,{' '}
             <a className="about__item" href="#contact">
-              contact me via email od LinkedIn.
+              contact me via email or LinkedIn.
             </a>
           </p>
         </div>
