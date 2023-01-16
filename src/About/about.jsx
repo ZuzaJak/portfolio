@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import photo from '../img/img2.png';
+import photo from '../img/zuzana.jakubcakova.jpg';
 
 const About = () => {
   return (
