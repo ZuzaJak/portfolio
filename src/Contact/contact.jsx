@@ -48,7 +48,7 @@ const Contact = () => {
           </a>
         </p>
         <p className="contact-icons-flexitem">
-          background design by{' '}
+          design by{' '}
           <a href="https://www.freepik.com/vectors/background" target="_blank">
             freepik
           </a>
